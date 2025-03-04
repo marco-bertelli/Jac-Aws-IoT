@@ -5,7 +5,7 @@ import AWS from 'aws-sdk';
 import * as os from 'os';
 
 // setting aws region to connect
-AWS.config.update({ region: 'eu-central-1' });
+AWS.config.update({ region: 'eu-west-1' });
 
 const iot = new AWS.Iot();
 
